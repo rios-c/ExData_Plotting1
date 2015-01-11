@@ -20,5 +20,5 @@ legend( "topright", lty=1, col = c("black", "blue", "red"), legend = c("Sub_mete
 with(rn, {plot(datetime, Global_reactive_power, type="l", ylab="Global_reactive_power", xlab="datetime")})
 mtext("Plot 4", side=3, outer=TRUE, adj=0)
 
-dev.copy(png, file="plot4.png")
+dev.copy(png, file="plot4.png", width = 480, height = 480)
 dev.off()
